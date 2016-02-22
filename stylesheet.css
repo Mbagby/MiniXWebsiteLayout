@@ -1,0 +1,290 @@
+body{
+	font-family: "canadaFont", Fallback, sans-serif;
+}
+@font-face {
+    font-family: canadaFont;
+    src: url('Fonts/canada_type_-_gibson-demo.html');
+}
+
+
+/*Mobile IPhone*/
+@media screen and (max-width: 449px){
+
+/*Three Squares*/
+.squareImages {
+	width:100%;
+	text-align: center;
+}
+.squareImages div{
+	text-align: center;
+	vertical-align: center;
+	width: 100%;
+	margin-bottom: 1%;
+}
+.squareImages img{
+	width: 100%;
+}
+
+/*Three Texts*/
+.squareTexts{
+	width:100%;
+	text-align: center;
+}
+.squareTexts div{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 3%;
+	vertical-align: text-top;
+}
+/*NavBar*/
+nav ul li{
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+nav ul li:hover {
+    color: #6ee1cd;
+}
+nav{
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    padding: 1%;
+    font-size: 8px;
+}
+nav li img{
+	width: 13%;
+	margin: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*ImageLayovers*/
+.imageLayover{
+	width:100%;
+}
+.imageTitle{
+	font-size: 14px;
+}
+p{
+	font-size: 8px;
+}
+.shopNow{
+	margin-top: 10px;
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+	border: none;
+	font-size: 10px;
+	width: 75px;
+	height: 27px;
+}
+.shopNow:hover{
+	color:#000000;
+}
+/*Image Jumbotron 2*/ 
+#about1{
+	width: 100%;
+	position: relative;
+}
+
+.kidwearConcept1{
+	width: 200px;
+	text-align: center;
+	margin: auto;
+}
+
+/*mini X model title*/
+
+#titleMiniModel{
+	text-align: center;
+	padding: 15px;
+}
+
+/*Image Jumbotron 2*/ 
+#about2{
+	width: 100%;
+}
+.kidwearConcept2{
+	width: 200px;
+	text-align: center;
+	margin: auto;
+}
+
+/*Footer*/
+#footer{
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+#footer div{
+	display: inline-block;
+	margin-left: 6%;
+	vertical-align: text-top;
+}
+#footer h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+#footer ul{
+	padding-top: 7px;
+	list-style-type: none;
+	padding-left: 0;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 450px){
+/*Three Sqaures*/
+.squareImages {
+	width:100%;
+	text-align: center;
+}
+.squareImages div{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	margin: .5%;
+	margin-bottom: 3%;
+}
+.squareImages img{
+	width: 100%;
+}
+
+
+
+/*NavBar*/
+nav ul li{
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+nav ul li:hover {
+    color: #6ee1cd;
+}
+nav{
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    padding: 1.5%;
+}
+nav li img{
+	width: 13%;
+	margin: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*ImageLayovers*/
+.imageLayover{
+	position: relative;
+	width:100%;
+}
+.imageTitle{
+	font-size: 28px;
+}
+p{
+	font-size: 14px;
+}
+.shopNow{
+	margin-top: 10px;
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+	border: none;
+	width: 130px;
+	height: 33px;
+}
+.shopNow:hover{
+	color:#000000;
+}
+/*Image Jumbotron 2*/ 
+#about1{
+	width: 100%;
+	position: relative;
+}
+
+.kidwearConcept1{
+	position:absolute;
+	width: 350px;
+	top:30%;
+	left:5%;
+	text-align: center;
+}
+
+/*mini X model title*/
+
+#titleMiniModel{
+	text-align: center;
+	padding: 15px;
+}
+
+
+
+/*Three Texts*/
+.squareTexts{
+	width:100%;
+	text-align: center;
+}
+.squareTexts div{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	margin: .5%;
+	margin-bottom: 3%;
+	vertical-align: text-top;
+}
+
+
+
+/*Image Jumbotron 2*/ 
+#about2{
+	width: 100%;
+	position: relative;
+}
+.kidwearConcept2{
+	position:absolute;
+	width: 350px;
+	top:33%;
+	left:60%;
+	text-align: center;
+}
+
+/*Footer*/
+#footer{
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+#footer div{
+	display: inline-block;
+	margin-left: 6%;
+	vertical-align: text-top;
+}
+#footer ul{
+	padding-top: 7px;
+	list-style-type: none;
+	padding-left: 0;
+}
+}
